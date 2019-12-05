@@ -143,6 +143,11 @@ nav a:hover {
     line-height: 1.4;
   }
 
+  nav li {
+    font-size: .4rem;
+    margin-bottom: 1rem;
+  }
+
   nav a {
     font-size: 1rem;
     font-weight: 200;
@@ -150,13 +155,10 @@ nav a:hover {
 
   .card-img {
     padding-left: 0;
-}
-
-  .card-img {
-    padding-left: 0;
     padding-right: 0;
     margin-bottom: 0;
     display: block;
+    max-width: none;
   }
 
   .cards {
@@ -166,6 +168,7 @@ nav a:hover {
 
   .card {
     display: block;
+    max-width: none;
     width: 50%;
     flex-shrink: 0;
     margin-left: 0;
@@ -186,7 +189,7 @@ nav a:hover {
     max-width: 15em;
   }
 
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 60em) {
 
   .card {
     display: block;
@@ -212,6 +215,40 @@ nav a:hover {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .50rem;
+  }
+
+  header {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .nav-left {
+    width: 30%;
+  }
+
+  .nav-right {
+    width: 70%;
+  }
+
+  .nav-right h1 {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .nav-right nav ul {
+    justify-content: flex-start;
+  }
+
+  .nav-right nav li {
+    margin-bottom: 0;
+    margin-right: auto;
   }
 
 @media only screen and (min-width: 90em) {
