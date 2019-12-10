@@ -36,7 +36,7 @@ header {
 
 
 .logo {
-  width: 150px;
+  width: 90px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: .50rem;
@@ -45,7 +45,7 @@ header {
 h1 {
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: #fff;
   display: block;
   margin-top: 0;
@@ -78,6 +78,33 @@ ul {
   list-style-type: none;
 }
 
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5rem;
+  display: block;
+  padding-left: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1rem;
+  color: lightslategrey;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.join-us {
+  max-width: 45em;
+  margin-bottom: 4rem;
+}
+
+.featured-products {
+  margin-top: 2rem;
+}
+
 .card {
   position: relative;
   max-width: 400px;
@@ -105,7 +132,7 @@ ul {
 .card-body {
   padding-right: 1rem;
   position: absolute;
-  top: 70%;
+  top: 60%;
   background-color: rgba(0,0,0,.2)
 }
 
@@ -125,6 +152,7 @@ ul {
   padding-left: 1rem;
   max-width: 300px;
   margin-right: auto;
+  margin-bottom: 1rem;
 }
 
 .cards {
@@ -170,7 +198,6 @@ nav a:hover {
     display: block;
     max-width: none;
     width: 50%;
-    flex-shrink: 0;
     margin-left: 0;
     margin-right: 0;
   }
@@ -186,7 +213,7 @@ nav a:hover {
   .card p {
     font-size: .85rem;
     flex-grow: 1;
-    max-width: 15em;
+    max-width: 25em;
   }
 
 @media only screen and (min-width: 60em) {
@@ -257,4 +284,36 @@ nav a:hover {
     font-size: 130%;
   }
 
+  .join-us
+  {
+    padding-left: 5rem;
+  }
+
+  .featured-products {
+    padding-left: 5rem;
+  }
+
+   .card {
+     display: flex;
+     position: static;
+     justify-content: center;
+     width: 60%;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+  .card-body {
+    position: static;
+    background-color: inherit;
+    width: 60%;
+    padding-right: 0;
+   }
+
+  .card-body h3 {
+     color: #000;
+   }
+
+   .card-body p {
+     color: #000;
+   }
 }
