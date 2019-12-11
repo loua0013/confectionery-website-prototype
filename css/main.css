@@ -128,7 +128,7 @@ p {
   padding-right: 1rem;
   position: absolute;
   top: 60%;
-  background-color: rgba(0,0,0,.2)
+  background-color: rgba(0, 0, 0, .2)
 }
 
 .card-body h3 {
@@ -188,7 +188,9 @@ nav a:hover {
 }
 
 .footer {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   padding: 1.5rem 0;
   background-color: mistyrose;
