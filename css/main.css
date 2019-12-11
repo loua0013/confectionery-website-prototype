@@ -124,10 +124,6 @@ p {
   filter: alpha(opacity=50);
 }
 
-.cards {
-  padding-left: 0;
-}
-
 .card-body {
   padding-right: 1rem;
   position: absolute;
@@ -156,6 +152,7 @@ p {
 
 .cards {
   margin-top: 1rem;
+  padding-left: 0;
 }
 
 nav a:hover {
@@ -191,9 +188,7 @@ nav a:hover {
 }
 
 .footer {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: inline-block;
   align-items: center;
   padding: 1.5rem 0;
   background-color: mistyrose;
@@ -303,7 +298,14 @@ input {
     max-width: 25em;
   }
 
+}
+
 @media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
   .card {
     display: block;
@@ -323,6 +325,8 @@ input {
     margin-top: .25em;
     margin-bottom: 0;
   }
+
+}
 
 @media only screen and (min-width: 60em) {
 
@@ -365,6 +369,8 @@ input {
     margin-right: auto;
   }
 
+}
+
 @media only screen and (min-width: 90em) {
 
   html {
@@ -400,7 +406,8 @@ input {
      color: #000;
    }
 
-   .card-body p {
-     color: #000;
-   }
+  .card-body p {
+    color: #000;
+  }
+
 }
