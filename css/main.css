@@ -34,7 +34,6 @@ header {
   background-color: mistyrose;
 }
 
-
 .logo {
   width: 90px;
   margin-left: auto;
@@ -42,7 +41,7 @@ header {
   margin-bottom: .50rem;
 }
 
-h1 {
+.nav-right h1 {
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
   font-size: 3rem;
