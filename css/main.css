@@ -187,6 +187,24 @@ nav a:hover {
   background-color: pink;
 }
 
+.new-store {
+  margin: 0;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.new-location {
+  display: inline-block;
+  padding: 1em;
+  text-align: left;
+  vertical-align: top;
+  max-width: 30em;
+}
+
+.expanded {
+  margin-top: .5rem;
+}
+
 .footer {
   display: flex;
   justify-content: center;
