@@ -38,7 +38,7 @@ header {
   width: 90px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: .50rem;
+  margin-bottom: .5rem;
 }
 
 .nav-right h1 {
@@ -116,11 +116,10 @@ p {
   padding-right: 0;
   margin-bottom: .5rem;
   max-width: 400px;
-
 }
 
 .img-flex:hover {
-  opacity: 0.5;
+  opacity: .5;
   filter: alpha(opacity=50);
 }
 
@@ -128,7 +127,7 @@ p {
   padding-right: 1rem;
   position: absolute;
   top: 60%;
-  background-color: rgba(0, 0, 0, .2)
+  background-color: rgba(0, 0, 0, .2);
 }
 
 .card-body h3 {
@@ -179,7 +178,6 @@ nav a:hover {
   background-color: lavenderblush;
   padding: .4em .75em .3em;
   border-radius: 8px;
-
 }
 
 .view-more a:hover {
@@ -245,10 +243,10 @@ nav a:hover {
 h4 {
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 100;
   display: block;
-  padding-left:0;
+  padding-left: 0;
   margin-top: 2rem;
   margin-bottom: 0;
 }
@@ -273,7 +271,6 @@ input {
   text-align: center;
   font-weight: lighter;
 }
-
 
 @media only screen and (min-width: 38em) {
 
@@ -364,11 +361,10 @@ input {
     line-height: 1.5;
   }
 
-
   .logo {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: .50rem;
+    margin-bottom: .5rem;
   }
 
   header {
@@ -406,8 +402,7 @@ input {
     font-size: 130%;
   }
 
-  .join-us
-  {
+  .join-us {
     padding-left: 5rem;
   }
 
@@ -415,25 +410,25 @@ input {
     padding-left: 5rem;
   }
 
-   .card {
-     display: flex;
-     position: static;
-     justify-content: center;
-     width: 60%;
-     margin-left: auto;
-     margin-right: auto;
-   }
+  .card {
+    display: flex;
+    position: static;
+    justify-content: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .card-body {
     position: static;
     background-color: inherit;
     width: 60%;
     padding-right: 0;
-   }
+  }
 
   .card-body h3 {
-     color: #000;
-   }
+    color: #000;
+  }
 
   .card-body p {
     color: #000;
@@ -442,4 +437,5 @@ input {
   .new-location {
     padding: 0;
   }
+
 }
